@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Text to Emoji
   description: >-
-    Text to Emoji is a simple tool for converting text into emojis. It returns
-    the emojis that represent the given text.
+    Text to Emoji converts plain text strings into matching emoji
+    representations. Send any word or phrase and receive the corresponding emoji
+    characters.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/texttoemoji:
     post:
-      summary: Convert Text to Emoji
+      summary: Text to Emoji
       description: >-
         Text to Emoji is a simple tool for converting text into emojis. It
         returns the emojis that represent the given text.
