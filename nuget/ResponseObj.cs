@@ -34,6 +34,24 @@ namespace APIVerve.API.TexttoEmoji
     {
         [JsonProperty("emojis")]
         public string[] Emojis { get; set; }
+
+        [JsonProperty("matchedEmojis")]
+        public MatchedEmoji[] MatchedEmojis { get; set; }
+    }
+
+    public partial class MatchedEmoji
+    {
+        [JsonProperty("emoji")]
+        public string Emoji { get; set; }
+
+        [JsonProperty("name")]
+        public string Name { get; set; }
+
+        [JsonProperty("match")]
+        public string Match { get; set; }
+
+        [JsonProperty("relevance")]
+        public double? Relevance { get; set; }
     }
 
     public partial class Premium
