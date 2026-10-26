@@ -25,7 +25,15 @@ declare module '@apiverve/texttoemoji' {
 
 
   interface TexttoEmojiData {
-      emojis: (null | string)[];
+      emojis:        (null | string)[];
+      matchedEmojis: MatchedEmoji[];
+  }
+  
+  interface MatchedEmoji {
+      emoji:     null | string;
+      name:      null | string;
+      match:     null | string;
+      relevance: number | null;
   }
 
   export default class texttoemojiWrapper {

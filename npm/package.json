@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/texttoemoji",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Text to Emoji converts plain text strings into matching emoji representations. Send any word or phrase and receive the corresponding emoji characters.",
   "main": "index.js",
   "types": "index.d.ts",
