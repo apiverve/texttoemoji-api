@@ -228,6 +228,32 @@ A real response from the Text to Emoji API:
       "😁📚🙌",
       "😞",
       "👉🏽👈🏽"
+    ],
+    "matchedEmojis": [
+      {
+        "emoji": "👙",
+        "name": "bikini",
+        "match": "swim",
+        "relevance": 0.584
+      },
+      {
+        "emoji": "🛁",
+        "name": "bathtub",
+        "match": "lake",
+        "relevance": 0.51
+      },
+      {
+        "emoji": "🩱",
+        "name": "one-piece swimsuit",
+        "match": null,
+        "relevance": 0.387
+      },
+      {
+        "emoji": "🏊️",
+        "name": "person swimming",
+        "match": null,
+        "relevance": 0.37
+      }
     ]
   }
 }
